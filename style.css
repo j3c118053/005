@@ -1,0 +1,623 @@
+body{
+    background-attachment: fixed;
+    font-family : 'Logisoso',sans-serif;
+    line-height: 1.4;
+    height: 100%;
+    margin: 0;
+    background-color: black;
+
+
+}
+
+.container{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.section{
+    margin: 0;
+    padding: 0;
+    height: 768px;
+    width: 1366px;
+    
+}
+
+.overlay{
+    height: 768px;
+    width: 1366px;
+
+}
+
+
+.hamburger-round{
+    color: #b32c27 ; 
+    border-radius: 100%; 
+    background-color: #b32c27;
+}
+.hamburger-logo{
+    color: white;
+}
+.s1-abc h1{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    outline:none;
+    padding-bottom: 100px;
+    line-height: 1em;
+    font-size: 24vw;
+    background-image: url("bg_section.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.s1-bdy{
+    margin-top: 150px;
+
+}
+.s1-pcs{
+    margin-top: 60px;
+}
+.s1-pcs h1{
+    font-size: 5vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1em;
+    -webkit-background-clip: text;
+        background-clip: text;
+    background-image: url("bg_section.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.navbar-menu-word h1{
+    font-weight: bold;
+    color:  #b32c27 ;
+}
+
+
+#section1{
+    margin: 0;
+    padding: 0;
+    height: 100;
+    width: 100%;
+    background-image: url("bg_section.jpg") ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+
+    /* Parallax  */
+    background-attachment: fixed;
+
+    
+}
+
+#section1 .overlay{
+    margin: 0;
+    height: 100;
+    width: 100%;
+    background-color: rgba(179, 44, 39, 0.85) ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    /* Parallax  */
+    background-attachment: fixed;
+}
+
+#section1 ul > li > a{
+    color: white;
+}
+
+#section1 ul > li{
+    transition: 0.3s;
+    color: white;
+}
+
+#section1 ul>li:hover{
+    padding: 10px;
+    background-color: #b32c27 ;
+    color: white;
+    transition: 0.3s all;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+#section1 .container h4{
+    color: white;
+    size: 80vw;
+}
+
+
+#section1 .container .news{
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+    width: 100px;
+    height: 30px;
+    background-color: #b32c27 ;
+    color: white;
+    
+}
+
+#section1 .container .row .col-sm .news h5{
+    text-align:center;
+    size: 3vw;
+}
+
+#section1 .container .row .col-10 .isi-news h6 u{
+    text-align: left;
+    color: white;
+    size: 3vw;
+    margin-right: 100vw;
+}
+
+#section2{
+    
+    margin: 0;
+    height: 100;
+    width: 100%;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.crl-01{
+    position: relative;
+}
+
+.parallelogram{
+    height: 150px;
+    width: 20px;
+    background-color: #b32c27 ;
+    -ms-transform:skewX(-20deg);
+    transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    position: absolute;
+    z-index: 1;
+  
+    
+
+
+}
+
+.s2-type01{
+    margin-left: 5vw;;
+    padding: 0;
+}
+
+.s2-word{
+    margin-left: 5vw;
+}
+
+.s2-word h1{
+    font-size: 7vw;
+}
+
+.s2-btn{
+    margin-left: 5vw;
+    background-color: transparent;
+    color: white;
+}
+
+.s2-word2 h4{
+    padding-right: 80px;
+
+}
+
+
+.price h1{
+    font-size: 60px;
+}
+
+.s2-word3 p{
+    padding-right: 160px;
+}
+#indicator{
+    background-color: black; 
+    width: 100%; 
+    height: 3vw;
+    color: white;
+    font-weight: bold;
+    font-size: 9px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+ 
+#indicator p{
+    font-size: 20px ;
+}
+
+#section3{
+    background-color: #171717 ;
+    height: 768px;
+    width: 100%;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+.overlay-2{
+    height: 768px;
+    width: 1366px;
+    position: absolute;
+    padding: 0;
+}
+
+#section3 .overlay-2{
+    top: 30vw;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(179, 44, 39, 1) ;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: relative;
+    padding: 0;
+
+}
+
+.s3-word1{
+    position: relative;
+    color: white;
+    z-index: 3;
+    bottom: 25vw;
+}
+
+.s3-word2{
+    position: relative;
+    color:white;
+    z-index: 3 ;
+    bottom: 26vw;
+    font-size: 110px;
+}
+
+.s3-word3{
+    position: relative;
+    color: white;
+    z-index: 3;
+    bottom: 16vw;
+    font-size: 30px;
+}
+
+.s3-word4{
+    position: relative;
+    color: white;
+    z-index: 3;
+    bottom: 15vw;
+    font-size: 30px;
+}
+
+.bg-pict1{
+    width: 800px;
+    height: 560px;
+    position: relative;
+    left:550px;
+    bottom: 50vw;
+    z-index: 3;
+    background-attachment: fixed;
+}
+
+.s3-word5{
+    position: relative;
+    color: white;
+    z-index: 3;
+    bottom: 45vw;
+
+}
+
+.crl-02{
+    position: relative;
+    color: white;
+    z-index: 3;
+    bottom:40vw;
+    right: 60px;
+}
+#section4{
+    height: 1080px;
+    width: 100%;
+    background-color:#171717 ;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: relative;
+    padding: 0;
+    top: 80vw;
+
+}
+
+.s4-word1{
+    position: relative;
+    color: white;
+    z-index: 2;
+    top: 150px;  
+}
+
+.s4-word2{
+    position: relative;
+    color: white;
+    z-index: 2;
+    top: 155px;
+    font-size: 100px;
+}
+
+.crl-03{
+    position: relative;
+    bottom:500px;
+    
+
+}
+
+.crd-01{
+    position: relative;
+    bottom:600px;
+    background-color:#171717;
+    display: flex;
+    padding: 0;
+
+    
+    
+}
+
+.crd-bdy01{
+    background-color: #171717 ;
+}
+
+.parallelogram2{
+    height: 30px;
+    width: 10px;
+    background-color: #b32c27 ;
+    -ms-transform:skewX(-20deg);
+    transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    position: absolute;
+    z-index: 1;
+  
+}
+
+.s4-caption{
+    padding-left: 20px;
+    color: white;
+}
+
+.s4-caption2{
+    color: white;
+    font-weight: lighter;
+}
+
+#section5{
+    height: 1080px;
+    width: 100%;
+    background-color:#171717 ;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: relative;
+    padding: 0;
+    top: 80vw;
+
+}
+
+.faq{
+    position: relative;
+    top: 200px;
+}
+.s5_btn{
+    height:80px ;
+    background-color: transparent;
+   display: block;
+   
+}
+
+.box-q{
+    width: 50px;
+    height: 50px;
+    border-radius: 2px;
+    background-color: #b32c27 ;
+    font-size: 20px;
+    position: relative;
+    color: white;
+    text-align: center;
+    font-family: 'Fjalla One';
+}
+
+.s5_btn_wrd{
+    position: relative;
+    text-align: left;
+    right: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.s5_btn:hover .s5_btn_wrd{
+    color:black
+}
+
+#section6{
+    height: 1080px;
+    width: 100%;
+    background-color:#171717 ;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: relative;
+    padding: 0;
+    top: 80vw;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.bottom-maps{
+    padding-top: 50px;
+    color: white;
+}
+
+#section7{
+    height: 200px;
+    width: 100%;
+    background-color: #333333 ;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: relative;
+    padding: 0;
+    top: 80vw;
+}
+.btn_mid{
+    position: relative;
+    margin: auto;
+    left: 40vw;
+    top: 5vw; 
+}
+
+.box1{
+    width: 15vw;
+    height: 5vw;
+    background-color:#b4b4b4;
+    position: relative;
+    margin: auto;
+    top: 5vw;
+    text-align: center;
+    font-size: 30px;
+    color:black;
+    display: table-cell;
+    
+}
+
+.box2{
+    width: 15vw;
+    height: 5vw;
+    background-color:#b4b4b4;
+    position: relative;
+    margin: auto;
+    top: 5vw;
+    text-align: center;
+    font-size: 30px;
+    color:black;
+    display: table-cell;
+    
+}
+.box3{
+    width: 15vw;
+    height: 5vw;
+    background-color:#b4b4b4;
+    position: relative;
+    margin: auto;
+    top: 5vw;
+    text-align: center;
+    font-size: 30px;
+    color:black;
+    display: table-cell;
+    
+ 
+}
+
+.mid{
+    position: relative;
+    margin: auto;
+    align-items: center;
+    display: table;
+}
+
+a .box1:hover{
+    background-color: gray;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+a .box2:hover{
+    background-color: gray;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+a .box3:hover{
+    background-color: gray;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+
+#section8{
+    height: 100px;
+    width: 100%;
+    background-color: black ;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: relative;
+    padding: 0;
+    top: 80vw;
+}
+
+.left-menu{
+    float: left;
+    color: white;
+    font-weight: bold;
+    display: table;
+}
+
+.left-menu p{
+    padding-top: 40px;
+    display: table-cell;
+    padding-right: 40px;
+}
+
+.right-menu{
+    padding-top:40px  ;
+    float: right;
+    color: white;
+}
+
+#section9{
+    height: 50px;
+    width: 100%;
+    background-color:  #b32c27 ;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: relative;
+    padding: 0;
+    top: 80vw;
+}
