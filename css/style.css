@@ -30,6 +30,31 @@ body{
 
 }
 
+#scrollToTop{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:  #b32c27 ;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    outline: none;
+    cursor: pointer;
+    border: none;
+
+
+}
+
+#scrollToTop:active{
+    background-color: red;
+}
+.btn_scroll{
+    position: absolute;
+    z-index: 10;
+}
+
 
 .hamburger-round{
     color: #b32c27 ; 
@@ -47,7 +72,7 @@ body{
     padding-bottom: 100px;
     line-height: 1em;
     font-size: 24vw;
-    background-image: url("bg_section.jpg");
+    background-image: url("../bg_section.jpg");
     background-size: cover;
     background-attachment: fixed;
     -webkit-background-clip: text;
@@ -68,7 +93,7 @@ body{
     line-height: 1em;
     -webkit-background-clip: text;
         background-clip: text;
-    background-image: url("bg_section.jpg");
+    background-image: url("../bg_section.jpg");
     background-size: cover;
     background-attachment: fixed;
     -webkit-background-clip: text;
@@ -76,9 +101,14 @@ body{
 
 }
 
-.navbar-menu-word h1{
+.navbar-menu-word {
     font-weight: bold;
     color:  #b32c27 ;
+    font-size: 40px;
+}
+
+.navbar-word{
+    font-size: 20px;
 }
 
 
@@ -87,7 +117,7 @@ body{
     padding: 0;
     height: 100;
     width: 100%;
-    background-image: url("bg_section.jpg") ;
+    background-image: url("../bg_section.jpg") ;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -253,6 +283,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     padding: 0;
+    z-index: 1;
 }
 
 .overlay-2{
@@ -260,6 +291,7 @@ body{
     width: 1366px;
     position: absolute;
     padding: 0;
+    
 }
 
 #section3 .overlay-2{
@@ -308,7 +340,7 @@ body{
     font-size: 30px;
 }
 
-.bg-pict1{
+.img-pict1{
     width: 800px;
     height: 560px;
     position: relative;
@@ -458,7 +490,7 @@ body{
 }
 
 #section6{
-    height: 1080px;
+    height: 700px;
     width: 100%;
     background-color:#171717 ;
     background-size: cover;
@@ -503,6 +535,11 @@ body{
     padding: 0;
     top: 80vw;
 }
+
+#section7 a{
+    text-decoration: none;
+}
+}
 .btn_mid{
     position: relative;
     margin: auto;
@@ -523,6 +560,7 @@ body{
     display: table-cell;
     
 }
+
 
 .box2{
     width: 15vw;
@@ -563,16 +601,19 @@ a .box1:hover{
     background-color: gray;
     font-weight: bolder;
     transition: 0.3s;
+    
 }
 a .box2:hover{
     background-color: gray;
     font-weight: bolder;
     transition: 0.3s;
+    
 }
 a .box3:hover{
     background-color: gray;
     font-weight: bolder;
     transition: 0.3s;
+    
 }
 
 #section8{
@@ -620,4 +661,38 @@ a .box3:hover{
     position: relative;
     padding: 0;
     top: 80vw;
+}
+
+.footer-left{
+    float: left;
+    display: table;
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.footer-left h4 {
+    display: table-cell;
+}
+
+.footer-left p{
+    display:table-cell;
+    padding-left: 10px;
+}
+
+
+
+.footer-right{
+    float: right;
+    display: table;
+    padding-top: 5px;
+    
+}
+
+.btn-footer{
+    display: table-cell;
+    background-color: transparent;
+    color: white;
+    padding-left: 5px;
+    
 }
